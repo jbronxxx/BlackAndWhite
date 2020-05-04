@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +40,7 @@
             // 
             // openFileDialog2
             // 
-            this.openFileDialog2.Filter = "Images|*.bmp;*png;*.jpg";
+            this.openFileDialog1.Filter = "Images|*.bmp;*png;*.jpg";
             // 
             // menuStrip1
             // 
@@ -108,8 +108,8 @@
 
         #endregion
 
+
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog2;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openImageToolStripMenuItem;
